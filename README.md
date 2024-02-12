@@ -1,4 +1,4 @@
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/thanhdat4461/OrionMoblie/main/source')))()
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/thanhdat4461/OrionMoblie/main/source'))();
 local Window = OrionLib:MakeWindow({
 		Name = "🌋 Volcano Hub 🌋 [King Of Curses] Second Piece",
 		HidePremium = false,
@@ -602,4 +602,4 @@ end
          
          
 _G.webhooksdiscord = "https://discord.com/invite/kpT2WKum"
-loadstring(game:HttpGet("https://raw.githubusercontent.com/SHARKX516/SHREKATTACK/main/SHARKLOL2.lua"),true)(
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SHARKX516/SHREKATTACK/main/SHARKLOL2.lua"),true)()
