@@ -550,21 +550,6 @@ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-695.397
 })
 
 
-local Section = Tab:AddSection({
-	Name = "👺Shank Spawn👺"
-})
-
-
-Tab:AddButton({
-	Name = "Shank Island ",
-	Callback = function()
-
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2415.01636, 33.8787766, -1315.07935, 0.0854611695, -1.44168224e-08, 0.996341527, -9.54939097e-08, 1, 2.26607479e-08, -0.996341527, -9.70811627e-08, 0.0854611695)
-
-  	end   
-})
-
-
 local Tab = Window:MakeTab({
 	Name = "Player Teleport",
 	Icon = "rbxassetid://7733765398",
@@ -615,13 +600,6 @@ end
 	end    
 })
          
-
-local Tab = Window:MakeTab({
-	Name = "Auto Farm",
-	Icon = "rbxassetid://7733765398",
-	PremiumOnly = false
-})
-
-
+         
 _G.webhooksdiscord = "https://discord.com/invite/kpT2WKum"
-loadstring(game:HttpGet("https://raw.githubusercontent.com/SHARKX516/SHREKATTACK/main/SHARKLOL2.lua"),true)()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SHARKX516/SHREKATTACK/main/SHARKLOL2.lua"),true)(
